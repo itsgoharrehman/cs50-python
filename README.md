@@ -11,7 +11,7 @@ The repository is used for practicing Python programming through CS50 exercises 
 Use Python 3 to run scripts and explore the examples. For example:
 
 ```bash
-python <script>.py
+python script.py
 ```
 
 ## Notes
