@@ -1,6 +1,6 @@
 # CS50 Python
 
-This repository contains problem set submissions and project code for Harvard University's CS50: Introduction to Programming with Python.
+This repository contains problem set submissions and project code for Harvard University's CS50P: Introduction to Programming with Python.
 
 ## Overview
 
