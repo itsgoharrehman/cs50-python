@@ -1,20 +1,43 @@
-# CS50 Python
+# cs50-python
 
-This repository contains problem set submissions and project code for Harvard University's CS50P: Introduction to Programming with Python.
+Official problem set solutions, laboratory exercises, and final project submissions for Harvard University's CS50P (Introduction to Programming with Python). Demonstrates mastery of Python core idioms, object-oriented design, regex pattern matching, file I/O, and unit testing.
 
-## Overview
+## Curriculum Coverage
 
-The repository is used for practicing Python programming through CS50 exercises and projects. Additional files and solutions may be added over time as the course progresses.
+* **Week 0: Functions, Variables**: Conditionals, string formatting, mathematical evaluation.
+* **Week 1: Conditionals**: Control flow, match-case constructs.
+* **Week 2: Loops**: Iteration, list comprehension, dictionary mapping.
+* **Week 3: Exceptions**: Error handling, assertion validation, input sanitization.
+* **Week 4: Libraries**: Python Standard Library (`random`, `statistics`, `sys`, `requests`).
+* **Week 5: Unit Tests**: Test suite development with `pytest`.
+* **Week 6: File I/O**: CSV handling, file stream reading and writing, image processing.
+* **Week 7: Regular Expressions**: Parsing, pattern extraction, input validation.
+* **Week 8: Object-Oriented Programming**: Classes, properties, dunder methods, inheritance.
 
-## Usage
+## Getting Started
 
-Use Python 3 to run scripts and explore the examples. For example:
+### Prerequisites
+* Python 3.11+
+* `pytest`
 
+### Running Tests
 ```bash
-python script.py
+git clone https://github.com/itsgoharrehman/cs50-python.git
+cd cs50-python
+pytest
 ```
 
-## Notes
+## Academic Integrity Notice
 
-- Focused on learning Python fundamentals through CS50.
-- Keep Python 3 installed to run the materials.
+This repository contains coursework code completed by Gohar Rehman for Harvard CS50P. In compliance with Harvard's Academic Honesty policy, current students should not copy or directly submit these solutions.
+
+## Maintainer
+
+* **Gohar Rehman**
+* GitHub: [@itsgoharrehman](https://github.com/itsgoharrehman)
+* Email: `goharrehmanfsd260@gmail.com`
+* Website: [itsgoharrehman.netlify.app](https://itsgoharrehman.netlify.app/)
+
+## License
+
+Educational and academic coursework archive. All rights reserved.
