@@ -1,0 +1,32 @@
+name: Defect Report
+description: Report an issue in execution, documentation, or dependency specification.
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide details regarding the defect in the problem set runner or documentation.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version and operating system.
+      placeholder: "e.g., Python 3.11.8 on Windows 11 / Ubuntu 22.04"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Problem Set and Reproduction Steps
+      description: Which exercise file encountered an issue?
+      placeholder: "e.g., Running week4/bitcoin.py with non-numeric input"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Error Traceback or Description
+      description: Include terminal output or traceback if available.
+    validations:
+      required: true
