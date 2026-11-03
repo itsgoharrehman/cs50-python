@@ -2,22 +2,23 @@
 
 ## Supported Versions
 
-| Version | Supported |
-|---|---|
-| Default Branch (main) | Yes |
+| Version | Supported | Security Maintenance |
+| :--- | :--- | :--- |
+| Default Branch (main) | Yes | Active maintenance |
 
-## Reporting a Vulnerability
+---
 
-We take the security of this repository and our software seriously. If you believe you have identified a vulnerability, security flaw, or credential exposure, please report it immediately through private disclosure channels.
+## Vulnerability Disclosure Protocol
+
+If you identify a security issue, credential exposure, or unsafe dependency in this coursework repository, please report it via private email:
 
 * **Security Contact**: goharrehmanfsd260@gmail.com
-* **Maintainer**: Gohar Rehman (@itsgoharrehman)
+* **Repository Maintainer**: Gohar Rehman (@itsgoharrehman)
+* **Response SLA**: Acknowledgment within 48 hours; resolution plan within 5 business days.
 
-### Vulnerability Report Details
-When reporting a vulnerability, please provide:
-* A detailed description of the issue and potential security impact.
-* Exact step-by-step reproduction instructions or a minimal proof-of-concept.
-* Specific affected files, functions, or endpoints.
+---
 
-### Responsible Disclosure
-Please do not open public GitHub issues or public pull requests detailing undisclosed vulnerabilities. Reports will be acknowledged within 48 hours and investigated promptly.
+## Academic Code Boundaries
+
+1. **No Production Use**: All code in this repository was authored for academic fulfillment and problem set evaluation. It is not intended for mission-critical or commercial production environments without extensive hardening.
+2. **Zero Credentials**: This repository strictly contains no API secrets, database credentials, or private access tokens.
