@@ -1,0 +1,16 @@
+name: Conceptual Question
+description: Ask a conceptual question regarding Python concepts or algorithms.
+title: "[QUESTION]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions regarding programming concepts covered in the course. Please note that direct problem set solutions will not be solved for currently enrolled students.
+  - type: textarea
+    id: inquiry
+    attributes:
+      label: Your Question
+      description: Describe the conceptual challenge or algorithm question.
+    validations:
+      required: true
